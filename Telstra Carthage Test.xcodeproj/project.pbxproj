@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCED398A267B14EA00E1BED5 /* EQCoreLib.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEDD8BA2678AE3000CD7379 /* EQCoreLib.xcframework */; };
+		FEEDD89C2678A6A700CD7379 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEDD89B2678A6A700CD7379 /* AppDelegate.swift */; };
+		FEEDD8A02678A6A700CD7379 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEDD89F2678A6A700CD7379 /* ViewController.swift */; };
+		FEEDD8A32678A6A700CD7379 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEEDD8A12678A6A700CD7379 /* Main.storyboard */; };
+		FEEDD8A52678A6A800CD7379 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEEDD8A42678A6A800CD7379 /* Assets.xcassets */; };
+		FEEDD8A82678A6A800CD7379 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEEDD8A62678A6A800CD7379 /* LaunchScreen.storyboard */; };
+		FEEDD8B72678AAED00CD7379 /* AFNetworking.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEDD8B42678AAED00CD7379 /* AFNetworking.xcframework */; };
+		FEEDD8B82678AAED00CD7379 /* AFNetworking.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FEEDD8B42678AAED00CD7379 /* AFNetworking.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FEEDD8DF2678AFEB00CD7379 /* equalone_config.json in Resources */ = {isa = PBXBuildFile; fileRef = FEEDD8DE2678AFEB00CD7379 /* equalone_config.json */; };
+		FEEDD8E62678C82300CD7379 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEDD8E52678C82300CD7379 /* AVFoundation.framework */; };
+		FEEDD8E82678C82800CD7379 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEDD8E72678C82800CD7379 /* CFNetwork.framework */; };
+		FEEDD8EC2678C83400CD7379 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEDD8E92678C83400CD7379 /* CoreFoundation.framework */; };
+		FEEDD8ED2678C83400CD7379 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEDD8EA2678C83400CD7379 /* CoreLocation.framework */; };
+		FEEDD8EE2678C83400CD7379 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEDD8EB2678C83400CD7379 /* CoreData.framework */; };
+		FEEDD8F22678C85800CD7379 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEDD8EF2678C85800CD7379 /* MobileCoreServices.framework */; };
+		FEEDD8F32678C85800CD7379 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEDD8F02678C85800CD7379 /* MapKit.framework */; };
+		FEEDD8F42678C85800CD7379 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEDD8F12678C85800CD7379 /* MediaPlayer.framework */; };
+		FEEDD8FA2678C86E00CD7379 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEDD8F52678C86E00CD7379 /* Security.framework */; };
+		FEEDD8FB2678C86E00CD7379 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEDD8F62678C86E00CD7379 /* SystemConfiguration.framework */; };
+		FEEDD8FC2678C86E00CD7379 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEDD8F72678C86E00CD7379 /* UIKit.framework */; };
+		FEEDD8FD2678C86E00CD7379 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEDD8F82678C86E00CD7379 /* QuartzCore.framework */; };
+		FEEDD8FE2678C86E00CD7379 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEDD8F92678C86E00CD7379 /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FEEDD8B92678AAED00CD7379 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FEEDD8B82678AAED00CD7379 /* AFNetworking.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DCB2C92B267B310800718410 /* Telstra Carthage Test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Telstra Carthage Test.entitlements"; sourceTree = "<group>"; };
+		FEEDD8982678A6A700CD7379 /* Telstra Carthage Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Telstra Carthage Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEEDD89B2678A6A700CD7379 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FEEDD89F2678A6A700CD7379 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FEEDD8A22678A6A700CD7379 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEEDD8A42678A6A800CD7379 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEEDD8A72678A6A800CD7379 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FEEDD8A92678A6A800CD7379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEEDD8B42678AAED00CD7379 /* AFNetworking.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AFNetworking.xcframework; path = Carthage/Build/AFNetworking.xcframework; sourceTree = "<group>"; };
+		FEEDD8BA2678AE3000CD7379 /* EQCoreLib.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = EQCoreLib.xcframework; path = Carthage/Build/EQCoreLib.xcframework; sourceTree = "<group>"; };
+		FEEDD8DE2678AFEB00CD7379 /* equalone_config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = equalone_config.json; sourceTree = "<group>"; };
+		FEEDD8E52678C82300CD7379 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FEEDD8E72678C82800CD7379 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		FEEDD8E92678C83400CD7379 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		FEEDD8EA2678C83400CD7379 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FEEDD8EB2678C83400CD7379 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FEEDD8EF2678C85800CD7379 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		FEEDD8F02678C85800CD7379 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FEEDD8F12678C85800CD7379 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		FEEDD8F52678C86E00CD7379 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FEEDD8F62678C86E00CD7379 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FEEDD8F72678C86E00CD7379 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FEEDD8F82678C86E00CD7379 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FEEDD8F92678C86E00CD7379 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEEDD8952678A6A700CD7379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEEDD8ED2678C83400CD7379 /* CoreLocation.framework in Frameworks */,
+				FEEDD8EC2678C83400CD7379 /* CoreFoundation.framework in Frameworks */,
+				FEEDD8FD2678C86E00CD7379 /* QuartzCore.framework in Frameworks */,
+				DCED398A267B14EA00E1BED5 /* EQCoreLib.xcframework in Frameworks */,
+				FEEDD8EE2678C83400CD7379 /* CoreData.framework in Frameworks */,
+				FEEDD8FA2678C86E00CD7379 /* Security.framework in Frameworks */,
+				FEEDD8FE2678C86E00CD7379 /* WebKit.framework in Frameworks */,
+				FEEDD8B72678AAED00CD7379 /* AFNetworking.xcframework in Frameworks */,
+				FEEDD8F32678C85800CD7379 /* MapKit.framework in Frameworks */,
+				FEEDD8F42678C85800CD7379 /* MediaPlayer.framework in Frameworks */,
+				FEEDD8FC2678C86E00CD7379 /* UIKit.framework in Frameworks */,
+				FEEDD8F22678C85800CD7379 /* MobileCoreServices.framework in Frameworks */,
+				FEEDD8E82678C82800CD7379 /* CFNetwork.framework in Frameworks */,
+				FEEDD8FB2678C86E00CD7379 /* SystemConfiguration.framework in Frameworks */,
+				FEEDD8E62678C82300CD7379 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEEDD88F2678A6A700CD7379 = {
+			isa = PBXGroup;
+			children = (
+				FEEDD89A2678A6A700CD7379 /* Telstra Carthage Test */,
+				FEEDD8992678A6A700CD7379 /* Products */,
+				FEEDD8B22678AAED00CD7379 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FEEDD8992678A6A700CD7379 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEEDD8982678A6A700CD7379 /* Telstra Carthage Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEEDD89A2678A6A700CD7379 /* Telstra Carthage Test */ = {
+			isa = PBXGroup;
+			children = (
+				DCB2C92B267B310800718410 /* Telstra Carthage Test.entitlements */,
+				FEEDD89B2678A6A700CD7379 /* AppDelegate.swift */,
+				FEEDD8DE2678AFEB00CD7379 /* equalone_config.json */,
+				FEEDD89F2678A6A700CD7379 /* ViewController.swift */,
+				FEEDD8A12678A6A700CD7379 /* Main.storyboard */,
+				FEEDD8A42678A6A800CD7379 /* Assets.xcassets */,
+				FEEDD8A62678A6A800CD7379 /* LaunchScreen.storyboard */,
+				FEEDD8A92678A6A800CD7379 /* Info.plist */,
+			);
+			path = "Telstra Carthage Test";
+			sourceTree = "<group>";
+		};
+		FEEDD8B22678AAED00CD7379 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEEDD8F82678C86E00CD7379 /* QuartzCore.framework */,
+				FEEDD8F52678C86E00CD7379 /* Security.framework */,
+				FEEDD8F62678C86E00CD7379 /* SystemConfiguration.framework */,
+				FEEDD8F72678C86E00CD7379 /* UIKit.framework */,
+				FEEDD8F92678C86E00CD7379 /* WebKit.framework */,
+				FEEDD8F02678C85800CD7379 /* MapKit.framework */,
+				FEEDD8F12678C85800CD7379 /* MediaPlayer.framework */,
+				FEEDD8EF2678C85800CD7379 /* MobileCoreServices.framework */,
+				FEEDD8EB2678C83400CD7379 /* CoreData.framework */,
+				FEEDD8E92678C83400CD7379 /* CoreFoundation.framework */,
+				FEEDD8EA2678C83400CD7379 /* CoreLocation.framework */,
+				FEEDD8E72678C82800CD7379 /* CFNetwork.framework */,
+				FEEDD8E52678C82300CD7379 /* AVFoundation.framework */,
+				FEEDD8BA2678AE3000CD7379 /* EQCoreLib.xcframework */,
+				FEEDD8B42678AAED00CD7379 /* AFNetworking.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEEDD8972678A6A700CD7379 /* Telstra Carthage Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEEDD8AC2678A6A800CD7379 /* Build configuration list for PBXNativeTarget "Telstra Carthage Test" */;
+			buildPhases = (
+				FEEDD8942678A6A700CD7379 /* Sources */,
+				FEEDD8952678A6A700CD7379 /* Frameworks */,
+				FEEDD8962678A6A700CD7379 /* Resources */,
+				FEEDD8B92678AAED00CD7379 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Telstra Carthage Test";
+			productName = "Telstra Carthage Test";
+			productReference = FEEDD8982678A6A700CD7379 /* Telstra Carthage Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEEDD8902678A6A700CD7379 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					FEEDD8972678A6A700CD7379 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = FEEDD8932678A6A700CD7379 /* Build configuration list for PBXProject "Telstra Carthage Test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEEDD88F2678A6A700CD7379;
+			productRefGroup = FEEDD8992678A6A700CD7379 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEEDD8972678A6A700CD7379 /* Telstra Carthage Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEEDD8962678A6A700CD7379 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEEDD8A82678A6A800CD7379 /* LaunchScreen.storyboard in Resources */,
+				FEEDD8A52678A6A800CD7379 /* Assets.xcassets in Resources */,
+				FEEDD8A32678A6A700CD7379 /* Main.storyboard in Resources */,
+				FEEDD8DF2678AFEB00CD7379 /* equalone_config.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEEDD8942678A6A700CD7379 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEEDD8A02678A6A700CD7379 /* ViewController.swift in Sources */,
+				FEEDD89C2678A6A700CD7379 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FEEDD8A12678A6A700CD7379 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEEDD8A22678A6A700CD7379 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FEEDD8A62678A6A800CD7379 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEEDD8A72678A6A800CD7379 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEEDD8AA2678A6A800CD7379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FEEDD8AB2678A6A800CD7379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEEDD8AD2678A6A800CD7379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Telstra Carthage Test/Telstra Carthage Test.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5N8224GMXE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build",
+				);
+				INFOPLIST_FILE = "Telstra Carthage Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.telstra.telstra24x7dev.phone.debug;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEEDD8AE2678A6A800CD7379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Telstra Carthage Test/Telstra Carthage Test.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5N8224GMXE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build",
+				);
+				INFOPLIST_FILE = "Telstra Carthage Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.telstra.telstra24x7dev.phone.debug;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEEDD8932678A6A700CD7379 /* Build configuration list for PBXProject "Telstra Carthage Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEEDD8AA2678A6A800CD7379 /* Debug */,
+				FEEDD8AB2678A6A800CD7379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEEDD8AC2678A6A800CD7379 /* Build configuration list for PBXNativeTarget "Telstra Carthage Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEEDD8AD2678A6A800CD7379 /* Debug */,
+				FEEDD8AE2678A6A800CD7379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEEDD8902678A6A700CD7379 /* Project object */;
+}

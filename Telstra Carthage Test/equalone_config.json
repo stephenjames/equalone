@@ -1,0 +1,8 @@
+{
+"baseUrl":"https://mobileexperiencemonitor.inside.telstra.com",
+"folder":"mytios",
+"anonymous":true,
+"dataCollect":true,
+"defaultBackgroundMode":1,
+"nonAnonymizedFields" : ["ssid","bssid","uid"]
+}

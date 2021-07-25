@@ -1,0 +1,53 @@
+{
+  "Mac" : [
+    {
+      "hash" : "757580abd8822aa549c4a0aec09068dad0a307b64b91fe725523d062cd0e9582",
+      "name" : "AFNetworking",
+      "container" : "AFNetworking.xcframework",
+      "identifier" : "macos-arm64_x86_64"
+    }
+  ],
+  "watchOS" : [
+    {
+      "hash" : "1f07a88906194d083a478eccdccb090270b934debe13dccbae799e93f6b71c05",
+      "name" : "AFNetworking",
+      "container" : "AFNetworking.xcframework",
+      "identifier" : "watchos-i386_x86_64-simulator"
+    },
+    {
+      "hash" : "629b6ca289dc8c6a38081cdaf54518e3be25e30b7c5f774c92654a3ae1ba5e5e",
+      "name" : "AFNetworking",
+      "container" : "AFNetworking.xcframework",
+      "identifier" : "watchos-arm64_32_armv7k"
+    }
+  ],
+  "tvOS" : [
+    {
+      "hash" : "dc84c7733251eb547a52eefcb5ebf75e9d4fe47e04f432ad91fbb1705c532532",
+      "name" : "AFNetworking",
+      "container" : "AFNetworking.xcframework",
+      "identifier" : "tvos-x86_64-simulator"
+    },
+    {
+      "hash" : "e46038a863faf78b2438f3978689005d949eb06a097f53eb8df6655be5ee25df",
+      "name" : "AFNetworking",
+      "container" : "AFNetworking.xcframework",
+      "identifier" : "tvos-arm64"
+    }
+  ],
+  "commitish" : "4.0.1",
+  "iOS" : [
+    {
+      "hash" : "fe726f070447994c87e2c894f9815e4a7cc2314d3085e59d197af35dab772c68",
+      "name" : "AFNetworking",
+      "container" : "AFNetworking.xcframework",
+      "identifier" : "ios-i386_x86_64-simulator"
+    },
+    {
+      "hash" : "fd0ec85d6af60052cb3e798e6547fed641756b0c1b9a9bf614735c92741d8af0",
+      "name" : "AFNetworking",
+      "container" : "AFNetworking.xcframework",
+      "identifier" : "ios-arm64_armv7"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF8" ?>
+<response>
+    <comlink>
+        <message expires="2013-07-31" id="1" title="Le titre du premier message"><![CDATA[Contenu du premier message à afficher]]></message>
+        <message expires="2013-08-31" id="2" title="Le titre du second message"><![CDATA[Contenu du second message à afficher]]></message>
+        <message expires="2013-07-31" id="3" title="Le titre du 3 message"><![CDATA[C3ontenu du 3eme message à afficher]]></message>
+        <message expires="2013-08-31" id="4" title="Le titre du 4 message"><![CDATA[C4ontenu du 4eme message à afficher]]></message>
+        <message expires="2013-07-31" id="5" title="Le titre du 5 message"><![CDATA[C1ontenu du premier message à afficher]]></message>
+        <message expires="2013-08-31" id="6" title="Le titre du 6 message"><![CDATA[2Contenu du second message à afficher]]></message>
+        <message expires="2013-07-31" id="7" title="Le titre du 7 message"><![CDATA[C3ontenu du prem3er message à afficher]]></message>
+        <message expires="2013-08-31" id="8" title="Le titre du 8 message"><![CDATA[C4ontenu du sec4nd message à afficher]]></message>
+    </comlink>
+</response>

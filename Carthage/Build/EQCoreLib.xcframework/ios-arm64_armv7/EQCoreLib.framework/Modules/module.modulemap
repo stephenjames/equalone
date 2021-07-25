@@ -1,0 +1,6 @@
+framework module EQCoreLib {
+  umbrella header "EQCoreLib.h"
+
+  export *
+  module * { export * }
+}
